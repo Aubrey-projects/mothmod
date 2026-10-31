@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "mothmod",
+	"version": "${version}",
+	"name": "Moth Mod",
+	"description": "This mod by Aubrey Jensen adds moths to Minecraft 26.X",
+	"authors": [
+		"Aubrey Jensen"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/mothmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.aubreyjensen.mothmod.MothMod"
+		],
+		"fabric-datagen": [
+			"com.aubreyjensen.mothmod.MothModDataGenerator"
+		],
+        "client": [
+          "com.aubreyjensen.mothmod.MothModClient"
+        ]
+	},
+	"mixins": [
+		"mothmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
