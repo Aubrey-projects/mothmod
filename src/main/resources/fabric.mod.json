@@ -9,9 +9,9 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Aubrey-projects/mothmod"
 	},
-	"license": "MIT",
+	"license": "MIT-License",
 	"icon": "assets/mothmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
