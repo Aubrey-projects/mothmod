@@ -20,7 +20,7 @@
 - [IntelliJ Download](https://www.jetbrains.com/idea/download/other/)
 - [Fabric Template Builder](https://fabricmc.net/develop/template/)
 - [Fabric Documentation](https://wiki.fabricmc.net/start)
-- [Fabric Modding Tutorial](https://www.youtube.com/watch?v=oU8-qV-ZtUY&t=328s)
+- [Fabric Modding Tutorial](https://www.youtube.com/watch?v=7i_rtkj67qk&list=PLKGarocXCE1H4l8g3c_KoRMsFzBsVjjAx&index=1)
 
 # Future Work
 
