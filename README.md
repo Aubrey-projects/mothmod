@@ -22,6 +22,10 @@ Aseprite
 
 Minecraft
 
+Blockbench
+
+CEM Template Loader
+
 
 {Describe the programming language that you used and any libraries.}
 
@@ -32,6 +36,9 @@ Minecraft
 - [Fabric Template Builder](https://fabricmc.net/develop/template/)
 - [Fabric Documentation](https://wiki.fabricmc.net/start)
 - [Fabric Modding Tutorial](https://www.youtube.com/watch?v=7i_rtkj67qk&list=PLKGarocXCE1H4l8g3c_KoRMsFzBsVjjAx&index=1)
+- [Java Introduction](https://www.youtube.com/watch?v=oBwPZRk6-SE&list=PLKGarocXCE1FeXvEogpjz4SvHxF_FJRO6&index=1)
+- [Blockbench Animation Tutorial](https://www.youtube.com/watch?v=HY_wjAnSy4I)
+- [Blockbench Simple Modeling Tutorial](https://www.youtube.com/watch?v=9mr5SDihebE&t=583s)
 
 # Future Work
 
