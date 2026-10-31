@@ -1,9 +1,31 @@
-# Moth Mod
+# Overview
 
-## Setup
+{Provide a description of the software that you wrote to demonstrate the Java language.}
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+{Describe your purpose for writing this software.}
 
-## License
+{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+[Software Demo Video](http://youtube.link.goes.here)
+
+# Development Environment
+
+{Describe the tools that you used to develop the software}
+
+{Describe the programming language that you used and any libraries.}
+
+# Useful Websites
+
+- [JDK Download](https://adoptium.net/temurin/releases/?package=jdk)
+- [IntelliJ Download](https://www.jetbrains.com/idea/download/other/)
+- [Fabric Template Builder](https://fabricmc.net/develop/template/)
+- [Fabric Documentation](https://wiki.fabricmc.net/start)
+- [Fabric Modding Tutorial](https://www.youtube.com/watch?v=oU8-qV-ZtUY&t=328s)
+
+# Future Work
+
+{Make a list of things that you need to fix, improve, and add in the future.}
+
+- Item 1
+- Item 2
+- Item 3
