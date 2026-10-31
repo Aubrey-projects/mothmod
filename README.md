@@ -12,6 +12,17 @@
 
 {Describe the tools that you used to develop the software}
 
+JDK 25.0.5
+
+Intellij IDEA Community Edition Version 2025.2.6.4
+
+FabricMC template mod generator
+
+Aseprite
+
+Minecraft
+
+
 {Describe the programming language that you used and any libraries.}
 
 # Useful Websites
