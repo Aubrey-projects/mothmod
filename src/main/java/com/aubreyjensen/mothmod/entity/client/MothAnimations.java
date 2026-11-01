@@ -5,6 +5,12 @@ import net.minecraft.client.animation.AnimationDefinition;
 import net.minecraft.client.animation.Keyframe;
 import net.minecraft.client.animation.KeyframeAnimations;
 
+/*
+I am not going to add a lot of comments here because I don't understand what most of the lines of code do
+I used BlockBench to animation my moth, and then I exported the animations as a .java
+Most of this code is just telling the program how the moth will move, since I keyframed the moth,
+I created it, but I didn't type this stuff line by line.
+ */
 public class MothAnimations {
     public static final AnimationDefinition IDLE = AnimationDefinition.Builder.withLength(2.0F).looping()
             .addAnimation("head", new AnimationChannel(AnimationChannel.Targets.ROTATION,

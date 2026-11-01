@@ -6,6 +6,12 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
 
+/*
+I am not going to add a lot of comments here because I don't understand what most of the lines of code do
+I used BlockBench to create a model of my moth, and then I exported it as a .java
+Most of this code is just telling the program how the moth looks but, since I modeled it in a modeling software,
+I created it, but I didn't type it line by line.
+ */
 public class MothModel extends EntityModel<MothRenderState> {
     private final ModelPart root;
     private final ModelPart head;
@@ -18,6 +24,7 @@ public class MothModel extends EntityModel<MothRenderState> {
     private final ModelPart outer_right_wing;
     private final ModelPart feet;
 
+    // This adds the animations
     private final KeyframeAnimation flyingAnimation;
     private final KeyframeAnimation idlingAnimation;
 
@@ -35,6 +42,7 @@ public class MothModel extends EntityModel<MothRenderState> {
         this.outer_right_wing = this.root.getChild("outer_right_wing");
         this.feet = this.root.getChild("feet");
 
+        // this bakes the animations
         this.flyingAnimation = MothAnimations.FLYING.bake(root);
         this.idlingAnimation = MothAnimations.IDLE.bake(root);
     }
@@ -67,6 +75,7 @@ public class MothModel extends EntityModel<MothRenderState> {
     }
 
     @Override
+    // This sets up the animations to work with the model
     public void setupAnim(MothRenderState state) {
         this.root().getAllParts().forEach(ModelPart::resetPose);
 
