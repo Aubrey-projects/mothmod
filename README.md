@@ -1,33 +1,28 @@
 # Overview
 
-{Provide a description of the software that you wrote to demonstrate the Java language.}
+I made a Minecraft Mod in Java to add Moths to the game that hover around and land on walls.
 
-{Describe your purpose for writing this software.}
+My purpose for writing this software was to learn some basics about Java, and to have fun!
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Moth Mod for Minecraft Java](https://youtu.be/ZgR65YDKnOM)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+I used many tools and libraries to make this Minecraft mod including but not limited to:
 
-JDK 25.0.5
+- JDK 25.0.5,
 
-Intellij IDEA Community Edition Version 2025.2.6.4
+- Intellij IDEA Community Edition Version 2025.2.6.4,
 
-FabricMC template mod generator
+- FabricMC template mod generator,
 
-Aseprite
+- Aseprite,
 
-Minecraft
+- Minecraft,
 
-Blockbench
+- Blockbench,
 
-CEM Template Loader
-
-
-{Describe the programming language that you used and any libraries.}
+- CEM Template Loader
 
 # Useful Websites
 
@@ -42,8 +37,6 @@ CEM Template Loader
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Make better model, textures, and animation
+- Make the moth wings potion ingredients 
+- Make the moths attracted to light
