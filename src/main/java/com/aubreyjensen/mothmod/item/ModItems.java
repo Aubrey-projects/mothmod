@@ -1,6 +1,8 @@
 package com.aubreyjensen.mothmod.item;
 
+// My imports
 import com.aubreyjensen.mothmod.MothMod;
+import com.aubreyjensen.mothmod.entity.ModEntities;
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -9,6 +11,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SpawnEggItem;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Function;
@@ -17,7 +20,7 @@ public class ModItems {
 
     // These call the registerItem method to create a moth_wing item and a moth_spawn_egg item
     public static final Item MOTH_WING = registerItem("moth_wing", Item::new);
-    public static final Item MOTH_SPAWN_EGG = registerItem("moth_spawn_egg", Item::new);
+    public static final Item MOTH_SPAWN_EGG = registerItem("moth_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(ModEntities.MOTH)));
 
     /*
     This method creates, configures, and registers a new item in Minecraft
