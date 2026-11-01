@@ -115,6 +115,7 @@ public class MothEntity extends PathfinderMob {
         }
     }
 
+    // Adds the moth attributes
     public static AttributeSupplier.Builder createAttributes() {
         return PathfinderMob.createLivingAttributes()
                 .add(Attributes.MAX_HEALTH, 4d)
@@ -124,7 +125,7 @@ public class MothEntity extends PathfinderMob {
     }
 
     /*
-     This has the moth locate a wall, sly toward it, snap onto it, and rest for a random amount of time
+     This has the moth locate a wall, fly toward it, snap onto it, and rest for a random amount of time
      */
     static class LandOnWallGoal extends Goal {
         private final MothEntity moth;

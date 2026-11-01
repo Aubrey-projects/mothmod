@@ -56,6 +56,7 @@ public class ModItems {
         // so that they are easily obtainable when you play
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
             output.accept(MOTH_WING);
+
         });
 
         // This adds items that belong under the SPAWN_EGGS category to the Creative Menu,
